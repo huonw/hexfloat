@@ -9,10 +9,8 @@
 // except according to those terms.
 
 #![feature(plugin)]
-#![allow(unstable)]
 
-#[plugin] #[no_link]
-extern crate hexfloat;
+#![plugin(hexfloat)]
 
 #[test]
 fn main() {
